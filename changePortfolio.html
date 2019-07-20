@@ -14,14 +14,14 @@
   <link href="css/mdb.min.css" rel="stylesheet">
   <!-- Your custom styles (optional) -->
   <link href="css/style.css" rel="stylesheet">
-  <style>
+  <!-- <style>
 
   	#addPortfolio {
   		top:20px;
     	right:40px;
   	}
   	
-  </style>
+  </style> -->
 </head>
 
 <body>
@@ -29,37 +29,39 @@
   <div class="container-fluide">
     <section class="card mb-5">
       <div class="card-body">
-        <h2>Портфолио</h2>
-        <a role="button" class="btn btn-success btn-lg position-fixed" id="addPortfolio">Добавить новое портфолио</a>
+
+        <div class="d-flex justify-content-between mb-5">
+          <h2 class="ml-4">Портфолио</h2>
+          <a role="button" class="btn btn-success btn-lg mr-4 font-weight-bold">+</a>
+        </div>
         
-        <ol>
-          <li>
-            <div class="list-group-item border-0 mt-5">
-              <img src="jpg.icon.png" width=50px height=55px alt="portfolio">
-              
-              <a class="btn btn-danger float-right" role="button">Удалить</a>
-              <a class="btn btn-warning float-right" role="button">Изменить</a>
-            </div>
-          </li>
+          <ol>
 
-          <li>
-            <div class="list-group-item border-0 mt-5">
-              <img src="jpg.icon.png" width=50px height=55px alt="portfolio">
-              
-              <a class="btn btn-danger float-right" role="button">Удалить</a>
-              <a class="btn btn-warning float-right" role="button">Изменить</a>
-            </div>
-          </li>
+            <li>
+              <div class="list-group-item border-0 d-flex justify-content-between">
+                <div>
+                  <img src="jpg.icon.png" width=50px height=55px alt="portfolio">
+                </div>
+                <div>
+                  <a class="btn btn-danger float-right" role="button">Удалить</a>
+                  <a class="btn btn-warning float-right" role="button">Изменить</a>
+                </div>
+              </div>
+            </li>
 
-          <li>
-            <div class="list-group-item border-0 mt-5">
-              <img src="jpg.icon.png" width=50px height=55px alt="portfolio">
-              
-              <a class="btn btn-danger float-right" role="button">Удалить</a>
-              <a class="btn btn-warning float-right" role="button">Изменить</a>
-            </div>
-          </li>
-        </ol>
+            <li>
+              <div class="list-group-item border-0 d-flex justify-content-between">
+                <div>
+                  <img src="jpg.icon.png" width=50px height=55px alt="portfolio">
+                </div>
+                <div>
+                  <a class="btn btn-danger float-right" role="button">Удалить</a>
+                  <a class="btn btn-warning float-right" role="button">Изменить</a>
+                </div>
+              </div>
+            </li>
+
+          </ol>
 
       </div>
     </section>
